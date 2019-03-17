@@ -1,0 +1,45 @@
+@media (max-width: 575.98px) {
+html,body{font-size:13px}
+.contentWrapBtn{font-size:10px}
+.headerText{font-size:18px}
+.w100-xs,.w100-sm{flex:0 0 100%;width:100%}
+.w50-xs{flex:0 0 46.5%;width:46.5%}
+.contentWrapDescriptionImg,.contentWrapDescriptionImg>img{width:100%}
+.mb-90{margin-bottom:40px}
+.mt-40,.overViewRight{margin-top:20px}
+.formGroup{margin-bottom:15px}
+.formGroup>input{max-height:35px}
+.commonBtn{width:125px;height:30px;padding:5px 10px;font-size:14px}
+.textPadding{padding-left:1rem;padding-right:1rem}
+.sectionOne,.sectionTwo{padding-top:25px;padding-bottom:25px}
+.mb-50{margin-bottom:25px}
+.hidden-xs{display:none}
+.footerDisclaimer{text-align:center}
+.shadeBox{width:355px}
+.overViewRight{padding-left:20px;padding-right:20px;flex:0 0 85%;width:85%;margin-left:auto;margin-right:auto}
+.shadeBox::after,.shadeBox::before{width:30px}
+.footerLogo{text-align:center}
+.footerLogo>a{display:inline-block}
+.mt-60{margin-top:30px}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+html,body{font-size:13px}
+.contentWrapBtn{font-size:10px}
+.headerText{font-size:21px}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+html,body{font-size:13px}
+.contentWrapBtn{font-size:10px}
+.headerText{font-size:21px}
+.formGroup{max-width:265px}
+.overViewWrap{padding-left:1rem;padding-right:1rem}
+.overViewRight{padding-left:20px;padding-right:20px}
+.shadeBox{width:430px}
+.w100-sm{flex:0 0 100%;width:100%}
+.contentWrapDescriptionImg,.contentWrapDescriptionImg>img{width:100%}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+html,body{font-size:13px}
+.contentWrapBtn{font-size:10px}
+.headerText{font-size:21px}
+}
