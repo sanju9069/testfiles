@@ -17,7 +17,8 @@ html,body{font-size:13px}
 .footerDisclaimer{text-align:center}
 .shadeBox{width:355px}
 .overViewRight{padding-left:20px;padding-right:20px;flex:0 0 85%;width:85%;margin-left:auto;margin-right:auto}
-.shadeBox::after,.shadeBox::before{width:0; height:0;}
+.shadeBox::after,.shadeBox::before{width:35px;}
+.overViewRight{box-shadow: 0 -1px 3.6px 1.4px rgba(0,0,0,0.16), inset 0 1px 1px 0 #fff;}
 .footerLogo{text-align:center}
 .footerLogo>a{display:inline-block}
 .mt-60{margin-top:30px}
@@ -26,10 +27,12 @@ html,body{font-size:13px}
 html,body{font-size:13px}
 .contentWrapBtn{font-size:10px}
 .headerText{font-size:21px}
-.formGroup{max-width:265px}
+.formGroup{max-width:220px}
+.overViewRight{box-shadow: 0 -1px 3.6px 1.4px rgba(0,0,0,0.16), inset 0 1px 1px 0 #fff;}
+.commonBtn{width: 150px;}
 .overViewWrap{padding-left:1rem;padding-right:1rem}
 .overViewRight{padding-left:20px;padding-right:20px}
-.shadeBox{width:430px}
+.shadeBox{width:370px}
 .w100-sm{flex:0 0 100%;width:100%}
 .contentWrapDescriptionImg,.contentWrapDescriptionImg>img{width:100%}
 }
